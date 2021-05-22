@@ -12,24 +12,29 @@ function Display() {
                 <div className="potraits-div">
                     <p>Misc</p>
                     <img src={misc} className="potrait" />
+                    <button className="view-btn">View More</button>
                 </div>
                 <div className="potraits-div">
                     <p>Scenarios</p>
                     <img src={scenes} className="potrait" />
+                    <button className="view-btn">View More</button>
                 </div>
                 <div className="potraits-div">
                     <p>Mandalas and more</p>
                     <img src={mandala} className="potrait" />
+                    <button className="view-btn">View More</button>
                 </div>
             </div>
             <div className="display-two">
                 <div className="potraits-div">
                     <p>Potraits</p>
                     <img src={potrait} className="potrait" />
+                    <button className="view-btn">View More</button>
                 </div>
                 <div className="potraits-div">
                     <p>Characters</p>
                     <img src={characters} className="potrait" />
+                    <button className="view-btn">View More</button>
                 </div>
             </div>
         </div>

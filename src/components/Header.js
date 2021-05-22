@@ -5,7 +5,7 @@ function Header() {
     return (
         <div className="header">
             <p className="header-name">Tejaaswini Narendra</p>
-            <div className="header-right">
+            <div>
                 <img src={coffee} className="coffee-img" alt="Buy a coffee"/>
             </div>
         </div>
