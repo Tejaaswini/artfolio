@@ -1,0 +1,41 @@
+.header{
+  display: flex;
+  flex-direction: row;
+  padding: 0 8vw;
+  gap:60vw
+
+}
+.header-name{
+  font-family: 'Dancing Script', cursive;
+  font-size: 2vw;
+  color:#072e4b;
+  cursor: pointer;
+}
+.coffee-img{
+  width: 5vw;
+  margin-top: 2vh;
+  cursor: pointer;
+}
+.display{
+  display: flex;
+  flex-direction: row;
+  gap:0 10vw;
+  padding: 0 8vw;
+  margin-top: 10vh;
+}
+.display-two{
+  display: flex;
+  flex-direction: row;
+  gap:0 10vw;
+  padding: 0 25vw;
+  margin-top: 20vh;
+}
+.potraits-div{
+  display: flex;
+  flex-direction: column;
+}
+.potrait{
+  width: 20vw;
+  height: 60vh;
+  border: 8px solid #000000;
+}
