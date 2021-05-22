@@ -17,6 +17,33 @@
   margin-top: 2vh;
   cursor: pointer;
 }
+.custom{
+  background-color: #70c1ff;
+  height: 12vh;
+  width: 30vw;
+  display: flex;
+  align-content: center;
+  border-radius: 15px;
+  margin: auto;
+  width: 50%;
+  margin-top: 3vh;
+}
+.custom p{
+  font-size: 18px;
+  font-family: 'Voltaire', sans-serif;
+  margin-left: 22%;
+  margin-top: 3%;
+  color: #072e4b;
+}
+.custom-btn{
+  background-color: #0c4570;
+  color:white;
+  width: 8vw;
+  height: 5vh;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+}
 .display{
   display: flex;
   flex-direction: row;
@@ -38,7 +65,7 @@
 }
 .potrait{
   width: 20vw;
-  height: 60vh;
+  height: 68vh;
   border: 8px solid #000000;
 }
 .potraits-div p{
@@ -69,6 +96,7 @@
 .footer p{
   font-size: 13px;
   font-family: 'Voltaire', sans-serif;
+  color:#072e4b;
 }
 .footer-logos{
   display: flex;
@@ -83,4 +111,48 @@
 .linkedin{
   width:50px;
   height: 35px;
+}
+
+@media (max-width: 960px) {
+  .display, .display-two{
+    display: flex;
+    flex-direction: column;
+    gap:0 10vw;
+    align-items: center;
+  }
+  .display-two{
+    margin-top: -2vh;
+  }
+  .potrait{
+    width: 40vw;
+    height: 40vh;
+  }
+  .header-name{
+    font-size: 5vw;
+  }
+  .header{
+    gap:30vw;
+  }
+  .coffee-img{
+    width: 9vw;
+  }
+  .view-btn{
+    height: 5vh;
+    width: 45vw;
+  }
+  .footer{
+    gap:7vw;
+  }
+  .footer p{
+    font-size: 10px;
+    font-family: 'Voltaire', sans-serif;
+    color:#072e4b;
+  }
+  .custom p{
+    font-size: 12px;
+    margin-top: 8%;
+  }
+  .custom-btn{
+    width: 18vw;
+  }
 }

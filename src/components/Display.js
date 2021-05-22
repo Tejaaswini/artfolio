@@ -8,6 +8,13 @@ import misc from '../assets/misc/balance.jpg'
 function Display() {
     return (
         <div>
+            <div className="custom">
+                <p>Want a customized artwork?<span> </span>  
+                <a href="mailto:sherlock.musk23@gmail.com?subject=Let's Connect!"rel="EMAIL" target="_blank">
+                    <button className="custom-btn">Contact</button>
+                </a>
+                </p>
+            </div>
             <div className="display">
                 <div className="potraits-div">
                     <p>Misc</p>
@@ -20,7 +27,7 @@ function Display() {
                     <button className="view-btn">View More</button>
                 </div>
                 <div className="potraits-div">
-                    <p>Mandalas and more</p>
+                    <p>Mandalas</p>
                     <img src={mandala} className="potrait" />
                     <button className="view-btn">View More</button>
                 </div>

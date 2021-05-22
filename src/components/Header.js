@@ -6,7 +6,9 @@ function Header() {
         <div className="header">
             <p className="header-name">Tejaaswini Narendra</p>
             <div>
-                <img src={coffee} className="coffee-img" alt="Buy a coffee"/>
+                <a target="_blank" href="https://www.buymeacoffee.com/thriss">
+                    <img src={coffee} className="coffee-img" alt="Buy a coffee"/>
+                </a>
             </div>
         </div>
     )

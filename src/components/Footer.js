@@ -7,7 +7,7 @@ function Footer() {
     return (
         <div className="footer">
             <div>
-                <p>2020 - Tejaaswini Narendra</p>
+                <p>2021 - Tejaaswini Narendra</p>
             </div>
             <div className="footer-logos">
                 <a href="https://github.com/Tejaaswini" target="_blank">
