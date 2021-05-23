@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import coffee from '../assets/coffee.jpg'
+import coffee from '../assets/coffee.png'
 
 function Header() {
     return (

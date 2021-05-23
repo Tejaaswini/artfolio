@@ -19,8 +19,8 @@
   font-weight: 800;
 }
 .coffee-img{
-  width: 5vw;
-  margin-top: 2vh;
+  width: 3vw;
+  margin-top: 5vh;
   cursor: pointer;
 }
 .custom{
@@ -49,6 +49,11 @@
   border: none;
   cursor: pointer;
   border-radius: 15px;
+}
+.landing-bg{
+  background-image: url("./assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .display{
   display: flex;
@@ -162,7 +167,9 @@
     gap:30vw;
   }
   .coffee-img{
-    width: 9vw;
+    width: 7vw;
+    margin-top: 2vh;
+    margin-left: 5vw;
   }
   .view-btn{
     height: 5vh;
@@ -190,15 +197,15 @@
     width: 80vw;
   }
   .display-img{
-    width: 65vw;
-    height: 64vh;
+    width: 45vw;
+    height: 43vh;
   }
   .display-div{
-    padding: 0 15vw;
+    padding: 0 20vw;
   }
   .portraits-page-img{
-    width: 52vw;
-    height: 65vh;
+    width: 45vw;
+    height: 43vh;
   }
   .portraits-page-img:hover{
     transform: none;
