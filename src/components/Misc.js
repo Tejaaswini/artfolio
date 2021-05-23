@@ -30,39 +30,39 @@ export default function Misc() {
   return (
     <div>
       <Grid container className="display-div">
-        <Grid item xs={3} className="display-div-top">
+        <Grid item xs={12} lg={3} className="display-div-top">
           <Paper>
               <img src={balance} className="display-img"/>
           </Paper>
         </Grid>
-        <Grid item xs={3} className="display-div-top">
+        <Grid item xs={12} lg={3} className="display-div-top">
           <Paper><img src={uni} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="display-div-top">
+        <Grid item xs={12} lg={3} className="display-div-top">
           <Paper><img src={blaze} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="display-div-top">
+        <Grid item xs={12} lg={3} className="display-div-top">
           <Paper><img src={nature} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="display-div-top">
+        <Grid item xs={12} lg={3} className="display-div-top">
           <Paper><img src={feels} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="display-div-top">
+        <Grid item xs={12} lg={3} className="display-div-top">
           <Paper><img src={lips} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="display-div-top">
+        <Grid item xs={12} lg={3} className="display-div-top">
           <Paper><img src={lust} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="display-div-top">
+        <Grid item xs={12} lg={3} className="display-div-top">
           <Paper><img src={mask} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="display-div-top">
+        <Grid item xs={12} lg={3} className="display-div-top">
           <Paper><img src={rose} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="display-div-top">
+        <Grid item xs={12} lg={3} className="display-div-top">
           <Paper><img src={nuts} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="display-div-top">
+        <Grid item xs={12} lg={3} className="display-div-top">
           <Paper><img src={cactus} className="display-img"/></Paper>
         </Grid>
       </Grid>

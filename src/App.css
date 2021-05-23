@@ -66,7 +66,7 @@
   margin-top: 20vh;
   margin-bottom: 10vh;
 }
-.potraits-div{
+.portraits-div{
   display: flex;
   flex-direction: column;
 }
@@ -75,7 +75,7 @@
   height: 68vh;
   border: 8px solid #000000;
 }
-.potraits-div p{
+.portraits-div p{
   text-align: center;
   font-size: 20px;
   font-weight: 400;
@@ -132,6 +132,14 @@
 }
 .display-div-top{
   margin-top: 15px !important;
+}
+.portraits-page-img{
+  width: 18vw;
+  height: 68vh;
+  border: 8px solid #000000;
+}
+.portraits-page-img:hover{
+  transform: scale(1.2);
 }
 
 @media (max-width: 960px) {

@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import potrait from '../assets/potraits/rahul.jpeg'
+import potrait from '../assets/portraits/rahul.jpeg'
 import characters from '../assets/characters/suits.jpeg'
 import scenes from '../assets/scenarios/identity.jpeg'
 import mandala from '../assets/mandalas/lions.jpg'
@@ -17,21 +17,21 @@ function Display() {
                 </p>
             </div>
             <div className="display">
-                <div className="potraits-div">
+                <div className="portraits-div">
                     <p>Misc</p>
                     <img src={misc} className="potrait" />
                     <Link to='/artfolio/miscellaneous'>
                         <button className="view-btn">View More</button>
                     </Link>
                 </div>
-                <div className="potraits-div">
+                <div className="portraits-div">
                     <p>Scenarios</p>
                     <img src={scenes} className="potrait" />
                     <Link to='/artfolio/scenarios'>
                         <button className="view-btn">View More</button>
                     </Link>
                 </div>
-                <div className="potraits-div">
+                <div className="portraits-div">
                     <p>Mandalas</p>
                     <img src={mandala} className="potrait" />
                     <Link to='/artfolio/mandalas'>
@@ -40,12 +40,14 @@ function Display() {
                 </div>
             </div>
             <div className="display-two">
-                <div className="potraits-div">
-                    <p>Potraits</p>
+                <div className="portraits-div">
+                    <p>Portraits</p>
                     <img src={potrait} className="potrait" />
-                    <button className="view-btn">View More</button>
+                    <Link to='/artfolio/portraits'>
+                        <button className="view-btn">View More</button>
+                    </Link>
                 </div>
-                <div className="potraits-div">
+                <div className="portraits-div">
                     <p>Characters</p>
                     <img src={characters} className="potrait" />
                     <button className="view-btn">View More</button>
