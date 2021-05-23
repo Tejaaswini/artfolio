@@ -9,8 +9,8 @@ function Header() {
                 <p className="header-name">Tejaaswini Narendra</p>
             </Link>
             <div>
-                <a target="_blank" href="https://www.buymeacoffee.com/thriss">
-                    <img src={coffee} className="coffee-img" alt="Buy a coffee" />
+                <a target="_blank" href="https://www.buymeacoffee.com/thriss" rel="noreferrer">
+                    <img src={coffee} className="coffee-img" alt="Buy a coffee"/>
                 </a>
             </div>
         </div>
