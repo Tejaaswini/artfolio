@@ -200,6 +200,12 @@
     width: 52vw;
     height: 65vh;
   }
+  .portraits-page-img:hover{
+    transform: none;
+  }
+  .display-img:hover{
+    transform: none;
+  }
 }
 @media (min-width: 600px) and (max-width: 900px) {
   .display-img{
@@ -209,5 +215,11 @@
   .portraits-page-img{
     width: 40vw;
     height: 85vh;
+  }
+  .portraits-page-img:hover{
+    transform: none;
+  }
+  .display-img:hover{
+    transform: none;
   }
 }
