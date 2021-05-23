@@ -29,41 +29,41 @@ export default function Misc() {
 
   return (
     <div>
-      <Grid container className="misc-div">
-        <Grid item xs={3} className="misc-div-top">
+      <Grid container className="display-div">
+        <Grid item xs={3} className="display-div-top">
           <Paper>
-              <img src={balance} className="misc-image"/>
+              <img src={balance} className="display-img"/>
           </Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={uni} className="misc-image"/></Paper>
+        <Grid item xs={3} className="display-div-top">
+          <Paper><img src={uni} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={blaze} className="misc-image"/></Paper>
+        <Grid item xs={3} className="display-div-top">
+          <Paper><img src={blaze} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={nature} className="misc-image"/></Paper>
+        <Grid item xs={3} className="display-div-top">
+          <Paper><img src={nature} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={feels} className="misc-image"/></Paper>
+        <Grid item xs={3} className="display-div-top">
+          <Paper><img src={feels} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={lips} className="misc-image"/></Paper>
+        <Grid item xs={3} className="display-div-top">
+          <Paper><img src={lips} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={lust} className="misc-image"/></Paper>
+        <Grid item xs={3} className="display-div-top">
+          <Paper><img src={lust} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={mask} className="misc-image"/></Paper>
+        <Grid item xs={3} className="display-div-top">
+          <Paper><img src={mask} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={rose} className="misc-image"/></Paper>
+        <Grid item xs={3} className="display-div-top">
+          <Paper><img src={rose} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={nuts} className="misc-image"/></Paper>
+        <Grid item xs={3} className="display-div-top">
+          <Paper><img src={nuts} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={cactus} className="misc-image"/></Paper>
+        <Grid item xs={3} className="display-div-top">
+          <Paper><img src={cactus} className="display-img"/></Paper>
         </Grid>
       </Grid>
     </div>

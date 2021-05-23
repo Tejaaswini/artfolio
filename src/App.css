@@ -119,18 +119,18 @@
   width:50px;
   height: 35px;
 }
-.misc-image{
+.display-img{
   width: 18vw;
   height: 60vh;
   border: 8px solid #000000;
 }
-.misc-image:hover{
+.display-img:hover{
   transform: scale(1.2);
 }
-.misc-div{
+.display-div{
   padding: 0 5vw;
 }
-.misc-div-top{
+.display-div-top{
   margin-top: 15px !important;
 }
 
@@ -175,5 +175,18 @@
   }
   .custom-btn{
     width: 18vw;
+  }
+  .display-img{
+    width: 55vw;
+    height: 60vh;
+  }
+  .display-div{
+    padding: 0 20vw;
+  }
+}
+@media (min-width: 600px) and (max-width: 900px) {
+  .display-img{
+    width: 55vw;
+    height: 90vh;
   }
 }

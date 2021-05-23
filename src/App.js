@@ -4,6 +4,7 @@ import Header from './components/Header'
 import Display from './components/Display';
 import Misc from './components/Misc'
 import Scenes from './components/Scenes'
+import Mandalas from './components/Mandalas'
 import Footer from './components/Footer';
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route exact path="/" component={Display} />
         <Route exact path="/artfolio/miscellaneous" component={Misc} />
         <Route exact path="/artfolio/scenarios" component={Scenes} />
+        <Route exact path="/artfolio/mandalas" component={Mandalas} />
       </Switch>
       <Footer />
     </div>

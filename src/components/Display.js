@@ -34,7 +34,9 @@ function Display() {
                 <div className="potraits-div">
                     <p>Mandalas</p>
                     <img src={mandala} className="potrait" />
-                    <button className="view-btn">View More</button>
+                    <Link to='/artfolio/mandalas'>
+                        <button className="view-btn">View More</button>
+                    </Link>
                 </div>
             </div>
             <div className="display-two">

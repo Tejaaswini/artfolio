@@ -21,37 +21,37 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-export default function Misc() {
+export default function Scenes() {
   const classes = useStyles();
 
   return (
     <div>
-      <Grid container className="misc-div">
-        <Grid item xs={3} className="misc-div-top">
+      <Grid container className="display-div">
+        <Grid item xs={12} lg={3} className="display-div-top">
           <Paper>
-              <img src={identity} className="misc-image"/>
+              <img src={identity} className="display-img"/>
           </Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={balcony} className="misc-image"/></Paper>
+        <Grid item xs={12} lg={3} className="display-div-top">
+          <Paper><img src={balcony} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={beach} className="misc-image"/></Paper>
+        <Grid item xs={12} lg={3} className="display-div-top">
+          <Paper><img src={beach} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={coffee} className="misc-image"/></Paper>
+        <Grid item xs={12} lg={3} className="display-div-top">
+          <Paper><img src={coffee} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={dance} className="misc-image"/></Paper>
+        <Grid item xs={12} lg={3} className="display-div-top">
+          <Paper><img src={dance} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={lazy} className="misc-image"/></Paper>
+        <Grid item xs={12} lg={3} className="display-div-top">
+          <Paper><img src={lazy} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={sunday} className="misc-image"/></Paper>
+        <Grid item xs={12} lg={3} className="display-div-top">
+          <Paper><img src={sunday} className="display-img"/></Paper>
         </Grid>
-        <Grid item xs={3} className="misc-div-top">
-          <Paper><img src={swing} className="misc-image"/></Paper>
+        <Grid item xs={12} lg={3} className="display-div-top">
+          <Paper><img src={swing} className="display-img"/></Paper>
         </Grid>
       </Grid>
     </div>
