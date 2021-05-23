@@ -9,8 +9,7 @@
   display: flex;
   flex-direction: row;
   padding: 0 8vw;
-  gap:54vw
-
+  gap:54vw;
 }
 .header-name{
   font-family: 'Dancing Script', cursive;
@@ -191,15 +190,15 @@
     width: 80vw;
   }
   .display-img{
-    width: 55vw;
-    height: 60vh;
+    width: 65vw;
+    height: 64vh;
   }
   .display-div{
-    padding: 0 20vw;
+    padding: 0 15vw;
   }
   .portraits-page-img{
-    width: 50vw;
-    height: 55vh;
+    width: 52vw;
+    height: 65vh;
   }
 }
 @media (min-width: 600px) and (max-width: 900px) {
