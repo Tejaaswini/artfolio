@@ -183,6 +183,12 @@
   }
   .custom-btn{
     width: 18vw;
+    margin-left: 12vw;
+    margin-top: 1px;
+    font-size: 10px;
+  }
+  .custom{
+    width: 80vw;
   }
   .display-img{
     width: 55vw;
