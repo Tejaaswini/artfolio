@@ -27,7 +27,7 @@ function Display() {
                 <div className="potraits-div">
                     <p>Scenarios</p>
                     <img src={scenes} className="potrait" />
-                    <Link to='#'>
+                    <Link to='/artfolio/scenarios'>
                         <button className="view-btn">View More</button>
                     </Link>
                 </div>
