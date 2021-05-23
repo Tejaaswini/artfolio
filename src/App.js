@@ -6,6 +6,7 @@ import Misc from './components/Misc'
 import Scenes from './components/Scenes'
 import Mandalas from './components/Mandalas'
 import Portraits from './components/Portraits'
+import Characters from './components/Characters'
 import Footer from './components/Footer';
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <Route exact path="/artfolio/scenarios" component={Scenes} />
         <Route exact path="/artfolio/mandalas" component={Mandalas} />
         <Route exact path="/artfolio/portraits" component={Portraits} />
+        <Route exact path="/artfolio/characters" component={Characters} />
       </Switch>
       <Footer />
     </div>

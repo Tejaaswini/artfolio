@@ -50,7 +50,9 @@ function Display() {
                 <div className="portraits-div">
                     <p>Characters</p>
                     <img src={characters} className="potrait" />
-                    <button className="view-btn">View More</button>
+                    <Link to='/artfolio/characters'>
+                        <button className="view-btn">View More</button>
+                    </Link>
                 </div>
             </div>
         </div>

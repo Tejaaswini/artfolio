@@ -191,10 +191,18 @@
   .display-div{
     padding: 0 20vw;
   }
+  .portraits-page-img{
+    width: 50vw;
+    height: 55vh;
+  }
 }
 @media (min-width: 600px) and (max-width: 900px) {
   .display-img{
     width: 55vw;
     height: 90vh;
+  }
+  .portraits-page-img{
+    width: 40vw;
+    height: 85vh;
   }
 }
