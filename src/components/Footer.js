@@ -13,7 +13,7 @@ function Footer() {
                 <a href="https://github.com/Tejaaswini" target="_blank" rel="noreferrer">
                     <img className="github-img" src={github} alt="github"/>
                 </a>
-                <a href="https://www.linkedin.com/in/tejaaswini-narendra-012b93153/"  target="_blank" rel="noreferrer">
+                <a href="https://www.linkedin.com/in/tejaaswini/"  target="_blank" rel="noreferrer">
                 <img className="linkedin" src={linkedin} alt="instagram"/>
                 </a>
                 <a href="https://www.instagram.com/messy_dodo/"  target="_blank" rel="noreferrer">
